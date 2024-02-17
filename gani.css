@@ -1,0 +1,30 @@
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-around;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .column {
+            width: 18%; /* Adjust as needed, leaving some space for margins */
+        }
+
+        .column ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .column a {
+            text-decoration: none;
+            color: #333; /* Adjust link color as needed */
+        }
+    </style>
